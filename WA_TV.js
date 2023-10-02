@@ -1,12 +1,3 @@
-/*
-RangeError: Invalid time value
-    at format(Sheets-Woo:43:14)
-    at join(Sheets-Woo:45:12)
-    at [unknown function](WA TV:65:16)
-    at WATV1(WA TV:60:8)
-    at WATV(WA TV:15:5)
-*/
-
 // Generales
 const ss = SpreadsheetApp.getActiveSpreadsheet()
 const sheetEnvios = ss.getSheetByName('Envios')
